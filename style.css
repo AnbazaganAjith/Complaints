@@ -1,0 +1,211 @@
+body{
+	margin: 0px;
+	border: 0px;
+	font-family: sans-serif;
+	transition: .5s all;
+}
+#nav
+{
+width:100%;
+top: 0;
+position: fixed;
+text-align: center;
+background-image: url(img/bg/3.jpg);
+background-size: cover;
+height:200px;
+
+}
+#logo
+{
+	text-align: center;
+	height:20px;
+}
+
+
+#nav_wrapper ul {
+	top: 15px;
+	background: #004d66;
+	color: white; 
+	text-align: center;
+	margin-top:0px;
+}
+#nav_wrapper ul li{
+
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	padding:10px 35px; 
+	float:center;
+}
+#nav_wrapper a{
+
+	color: white;
+	text-decoration: none;
+
+}
+#nav_wrapper ul li:hover{
+	background:#007399;
+	transition: all 0.45s;
+	opacity: 0.9;
+	filter: alpha(opacity=900);
+ 
+}
+#ser td{
+	margin-top:300px;
+	margin-left:70px;
+	overflow: hidden;
+}
+
+
+#user_log
+{
+margin-top:0px;
+background-image: url(img/bg/ln.jpg);
+background-size: cover;
+background-color: rgba(0,0,0,.2);
+width:100%;
+height:700px;
+}
+
+#log {	
+	margin-top:10px;
+	height:370px;
+	width:50px;
+	top:0px;
+ 	border-radius:7px;	
+ 	border-color: #eee;
+
+}
+
+#log legend{
+ margin-left:25px;
+ font-size:24px;
+ padding: 10px;
+ color:#fff;
+
+}
+
+#tbl{
+margin:50px;
+
+}
+	
+
+
+#sbtn{
+	
+	background:#5DCCFF;
+	border:1px;
+	border-color:#5DCCFF;
+}
+#sbtn:active{
+	
+	background:#002FC7;
+}
+#cbtn{
+	
+	background:#5DCCFF;
+	border:1px;
+	border-color:#5DCCFF;
+}
+#cbtn:active{
+	
+	background:#F10000;
+
+}
+#log a
+{
+	color:#c4ff4d;
+	text-decoration: none;
+	padding:10px;
+
+}
+#tbl tr
+{
+	
+	color:#fff;
+	text-align: right;
+}
+#user_logn
+{
+background-image: url(img/bg/ln.jpg);
+background-size: cover;
+background-color: rgba(0,0,0,.2);
+width:100%;
+height:700px;
+}
+
+#logn legend{
+ margin-left:25px;
+ font-size:24px;
+ font-weight:bold;
+ padding:5px;
+ color:white;
+
+}
+#logn a
+{
+	color:#ffff99;
+	text-decoration: none;
+	padding:10px;
+
+}
+#logn {	
+	margin-top:100px;
+	height:380px;
+	width:50px;
+	top:0px;
+ border-radius:7px;	
+ border-color:#90C695;
+}
+.crt
+{
+	color: lime;
+}
+.err
+{
+	color: red;
+}
+.err1
+{
+	color: #ff33bb;
+}
+
+#rhs
+{
+	height: 100%;
+	float: right;
+	width:75%;
+	border-top:  0px;
+}
+#cmp
+{
+	text-align: center;
+	background:#428BCA;
+}
+.btn {
+    border: none;
+    border-radius:5px;
+    color: white;
+    padding:10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.success {background-color: #4CAF50;
+		} 
+.success:hover {background-color: #46a049;}
+
+.danger {background-color: #f44336;} 
+.danger:hover {background: #da190b;}
+
+.info {background-color: #2196F3;} 
+.info:hover {background: #0b7dda;}
+
+.id,.pwd{
+	padding:5px;
+	border-radius: 5px;
+}
+.new{
+	padding:8px;
+	border-radius: 5px;
+}

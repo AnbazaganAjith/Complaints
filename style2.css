@@ -1,0 +1,31 @@
+#aji
+{	
+	top:0;
+	background-image: url();
+	height:100%;
+	width:100%;
+	margin-left: 25px;
+}
+ #lnk 
+{	
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+}
+a {
+color:#29a329;
+text-decoration: none;
+}
+table 
+{
+margin-left:40px;
+padding: 35px;
+}
+#lhs
+{
+	top:0px;
+	float: left;
+	background: #eee;
+	max-height: 100%;
+
+}
